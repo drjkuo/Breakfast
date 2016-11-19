@@ -12,7 +12,7 @@ public class Innout extends foodFactory
 
     /**
      * Constructor for objects of class Innout
-     */
+    
     public Innout()
     {
         // initialise instance variables
@@ -25,8 +25,8 @@ public class Innout extends foodFactory
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    @Override
-    public Food makefood()
+    //@Override
+    public Food makeFood()
     {
         // put your code here
         return new Hamburger();

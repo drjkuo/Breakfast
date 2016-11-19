@@ -16,10 +16,15 @@ public abstract class foodFactory
      * @param  y    a sample parameter for a method
      * @return        the sum of x and y 
      */
-    public abstract Food makeFood();
+    //public abstract Food makeFood();
     //{
         // put your code here
         //return x + y;
         
+    //}
+    public abstract Food makeFood();
+    //{
+        // put your code here
+        //return new Food();
     //}
 }

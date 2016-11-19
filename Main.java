@@ -24,6 +24,7 @@ public class Main
         Kuo.eat();
         Kuo.goRestaurant(new Innout());
         Kuo.eat();
+        Kuo.eat();
         
         /*
         Kuo.getFood(new Fish());

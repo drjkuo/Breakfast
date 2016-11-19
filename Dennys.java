@@ -12,12 +12,13 @@ public class Dennys extends foodFactory
 
     /**
      * Constructor for objects of class Dennys
-     */
+  
     public Dennys()
     {
         // initialise instance variables
         //x = 0;
     }
+    */
 
     /**
      * An example of a method - replace this comment with your own
@@ -25,7 +26,7 @@ public class Dennys extends foodFactory
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    @Override
+    //@Override
     public Food makeFood()
     {
         // put your code here

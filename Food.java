@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public interface Food
+public abstract class Food
 {
     
     /**
@@ -15,5 +15,5 @@ public interface Food
      * @return        the result produced by sampleMethod 
      */
     //int sampleMethod(int y);
-    String beingEaten();
+    abstract String beingEaten();
 }

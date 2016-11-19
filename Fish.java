@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Fish implements Food
+public class Fish extends Food
 {
     // instance variables - replace the example below with your own
     private String name = "Grill Fish";
