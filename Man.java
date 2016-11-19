@@ -1,4 +1,4 @@
-
+ import java.util.*;
 /**
  * Write a description of class Main here.
  * 
@@ -9,7 +9,8 @@ public class Man
 {
     // instance variables - replace the example below with your own
     // a man born with a food
-    private Food food;
+    //private ArrayList<Food> foodArr;
+    private List<Food> foodArr = new ArrayList<Food>();
 
     /**
      * Constructor for objects of class Main
@@ -29,10 +30,10 @@ public class Man
     public void eat()
     {
         // put your code here
-        if (this.food != null) 
+        if (foodArr.size() != 0) 
         {
-            System.out.println("I got something to eat." + "  It's " + food.beingEaten()+ ".");
-            this.food = null;
+            System.out.println("I got something to eat." + "  It's " + foodArr.get(foodArr.size()-1).beingEaten()+ ".");
+            foodArr.remove(foodArr.size()-1);
         }
         else 
         {
@@ -46,13 +47,15 @@ public class Man
        //if (f.isInstance(Hamburger)) {
        //if (Hamburger.isInstance(f)) { 
        if (f instanceof Hamburger) { 
-           food = new Hamburger();
+           //food = new Hamburger();
+           foodArr.add(new Hamburger());
            //System.out.println(
        }
      
        
        if (f instanceof Fish) {
-           food = new Fish();
+           //food = new Fish();
+           foodArr.add(new Fish());
        }
         
         /*
