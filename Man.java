@@ -41,6 +41,11 @@ public class Man
         }
     }
     
+    public void goRestaurant(foodFactory ff)
+    {
+        foodArr.add(ff.makeFood());
+    }
+    
     public void getFood(Food f)
     {
        foodArr.add(f);

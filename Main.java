@@ -19,9 +19,13 @@ public class Main
         //x = 0;
         System.out.print ('\f');
         Man Kuo = new Man();
-        Kuo.getFood(new Steak());
+        //Kuo.getFood(new Steak());
+        Kuo.goRestaurant(new Dennys());
         Kuo.eat();
+        Kuo.goRestaurant(new Innout());
         Kuo.eat();
+        
+        /*
         Kuo.getFood(new Fish());
         Kuo.eat();
         Kuo.eat();
@@ -29,6 +33,7 @@ public class Main
         Kuo.getFood(new Hamburger());
         Kuo.eat();
         Kuo.eat();
+        */
         
         
     }
