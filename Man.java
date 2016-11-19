@@ -43,9 +43,10 @@ public class Man
     
     public void getFood(Food f)
     {
-       
+       foodArr.add(f);
        //if (f.isInstance(Hamburger)) {
        //if (Hamburger.isInstance(f)) { 
+       /*
        if (f instanceof Hamburger) { 
            //food = new Hamburger();
            foodArr.add(new Hamburger());
@@ -57,7 +58,13 @@ public class Man
            //food = new Fish();
            foodArr.add(new Fish());
        }
-        
+       
+       
+       if (f instanceof Steak) {
+           //food = new Fish();
+           foodArr.add(new Steak());
+       }
+       */
         /*
         if (((int)(Math.random()*2) % 2) == 0) {
             food = new Hamburger();

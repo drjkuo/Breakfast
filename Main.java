@@ -19,7 +19,7 @@ public class Main
         //x = 0;
         System.out.print ('\f');
         Man Kuo = new Man();
-        Kuo.getFood(new Fish());
+        Kuo.getFood(new Steak());
         Kuo.eat();
         Kuo.eat();
         Kuo.getFood(new Fish());
